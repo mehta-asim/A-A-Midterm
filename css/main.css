@@ -1,4 +1,57 @@
-.hidden
+body
 {
-	display: none;
+	font-family: 'Pixellari';
+	background-image: url(../images/background.png);
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+#right
+{
+	position: absolute;
+	left: 50%;
+	height: 100%;
+	width: 50%;
+	text-align: center;
+	text-shadow: 5px 0px #F57149;
+	
+}
+
+#left
+{
+	position: absolute;
+	right: 50%;
+	height: 100%;
+	width: 50%;
+	text-align: center;
+	text-shadow: 5px 0px #67F067;
+	
+}
+
+#container
+{
+	max-width:1080px;
+	margin: 0 auto;
+}
+
+h1
+{
+	font-size: 80px;
+}
+
+#intro
+{
+	font-size: 40px;
+}
+
+h2
+{
+	font-size: 60px;
+}
+
+p
+{
+	font-size: 40px;
 }
